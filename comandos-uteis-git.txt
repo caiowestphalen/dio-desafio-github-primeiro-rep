@@ -1,0 +1,59 @@
+============
+COMANDOS GIT
+============
+
+• Modificado [modified]
+• Preparado [staged/index]
+• Consolidado [comitted]
+
+[Geral]
+git help
+
+[Especifico]
+git help add
+git help commit
+git help <comando>
+
+[Config]
+-- setar user
+git config --global user.name "Caio Westphalen"
+
+-- setar mail
+git config --global user.email caio@pixcode.com.br
+
+-- setar editor
+git config --global core.editor vim
+
+-- setar ferramente merge
+git config --global merge.tool vimdiff
+
+-- setar arquivos a serem ignorados
+git config --global core.excludesfile ~/.gitignore
+
+-- lista config
+git config --list
+
+[Repositorio Local]
+-- criar novo
+git init
+
+-- verificar arquivo
+git status
+
+-- add diretorio
+git add arquivo.txt
+
+-- add dir especifico
+git add diretorio
+
+-- comitar arquivo
+git commit arquivo.txt
+
+-- comitar com comentario
+git commit arquivo.txt -m "minha mensagem"
+
+-- remover arquivo
+git rm arquivo.txt
+
+-- clonar repositorio ja existente
+git clone git@github...
